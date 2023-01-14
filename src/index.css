@@ -1,5 +1,4 @@
 
-
 .nav {
   display: flex;
   justify-content:space-between;
@@ -30,7 +29,7 @@
   font-family: 'Karla';
   font-style: normal;
   font-weight: 700;
-  font-size: 20.7482px;
+  font-size: 1.25rem;
   line-height: 24px;
   letter-spacing: -0.1em;
   color: #FFFFFF;
@@ -44,8 +43,51 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 15px;
   text-align: right;
   color: #FFFFFF;
+}
+
+/* 
+form
+
+*/
+
+.form {
+  position: relative;
+  left: 35%;
+  padding: 30px;
+}
+
+.form__input__div {
+  display: flex;
+  gap: 17px;
+}
+
+.form__input {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--button {
+  width: 477px;
+  height: 40px;
+  color: #FFFFFF;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.1em;
 }
